@@ -32,11 +32,8 @@ jobs:
           node-version: 22
           cache: pnpm
 
-      - name: Configure GitHub Pages
+       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
-        with:
-          enablement: true
-          static_site_generator: next
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
