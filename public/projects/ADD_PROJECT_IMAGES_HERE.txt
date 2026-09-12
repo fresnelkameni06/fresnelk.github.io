@@ -1,0 +1,1 @@
+Place validated project screenshots and report previews in this folder.
